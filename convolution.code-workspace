@@ -1,0 +1,12 @@
+{
+    "folders": [
+		{
+			"path": "../../../../../../../usr/eda/home2/theironryan/LearningMachines/cuda-samples/Samples/0_Introduction/vectorAdd"
+		}
+	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		]
+	}
+}
