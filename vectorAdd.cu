@@ -230,7 +230,7 @@ __global__ void classifier(const float (*synapse)[Nn][Ni],
     // Tile over input dimension
     for (int ii = 0; ii < Ni; ii+=Ti)
       for (int i = ii; i < ii + Ti; i++)
-        sum = (*synapse)[n][i] * (*input)[i];
+        sum += (*synapse)[n][i] * (*input)[i];
 
     (*output)[n] = relu(sum);
   }
